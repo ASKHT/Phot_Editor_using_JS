@@ -9,18 +9,15 @@ let slider_value = document.querySelector(".filterinfo .value");
 let rotate_btns = document.querySelectorAll(".icons_room1 button");
 let reset = document.querySelector(".reset");
 let save = document.querySelector(".save");
-// console.log(slider_value.innerText);
-// console.log(slider.value);
-// console.log(slidervalue.innerText);
-// console.log(slider);
-// console.log(filtername);
-// console.log(filterbutton);
-// console.log(changeimage);
+
 let brightness = 100;
 let blur = 0;
 let contrast = 100;
 let invert = 0;
 let saturate = 100;
+let rotate = 0;
+let flip_x = 1;
+let flip_y = 1;
 document.querySelector(".slider input");
 // console.log(slider_value.value);
 chooseimgbutton.addEventListener("click", () => {
@@ -44,7 +41,6 @@ filterbutton.forEach((element) => {
       slider.max = "200";
       slider.value = brightness;
       slider_value.innerText = `${brightness}`;
-      console.log(slider.value);
     } else if (element.id === "blur") {
       slider.value = blur;
       slider.max = "200";
