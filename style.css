@@ -163,8 +163,11 @@ h3 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  .container {
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  .wrapper {
     width: 100%;
   }
 }
