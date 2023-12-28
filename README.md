@@ -13,7 +13,7 @@ A lightweight photo editor built with JavaScript for quick and easy image adjust
 
 ## Demo
 
-![Photo Editor Demo](./assets/demo.gif)
+askht.github.io/Phot_Editor_using_JS/
 
 ## Getting Started
 
@@ -52,8 +52,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+For inquiries, please contact .akshitpersonal7@gmail.com
 
 ---
 
-**Note**: Replace placeholder content such as `your-username`, `Name`, `your-email@example.com`, etc., with your actual information.
+**Note**: Replace placeholder content such as `https://github.com/ASKHT`, `Akshit Sharma`, `your-akshitpersonal7@gmail.com`, etc., with your actual information.
